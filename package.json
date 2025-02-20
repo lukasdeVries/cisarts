@@ -1,0 +1,17 @@
+{
+  "name": "cisarts-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "wp-scripts start --webpack-src-dir=scripts/src --output-path=scripts/build",
+    "build": "wp-scripts build --webpack-src-dir=scripts/src --output-path=scripts/build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.5.0"
+  }
+}
